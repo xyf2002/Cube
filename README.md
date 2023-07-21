@@ -1,5 +1,6 @@
 # Cube
-
+魔方程序
+采用Java语言进行开发，并使用MVC（Model-View-Controller）设计模式。
 
 魔方程序
 │
@@ -23,6 +24,7 @@
     │   └── ...
     └── fxml
         └── cube_view.fxml
+
 
 
 controller文件夹：存放与用户交互和控制魔方旋转相关的类。
