@@ -1,6 +1,6 @@
 package view;
 
-import javafx.application.Application;
+/*import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
 import javafx.scene.paint.Color;
@@ -82,4 +82,4 @@ public class CubeView extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-}
+}*/

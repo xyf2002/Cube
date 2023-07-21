@@ -8,14 +8,14 @@ public class Face {
     }
 
 
-    private void initializeFace() {
-        // 假设魔方顺序是：前面（Front）、后面（Back）、顶面（Top）、底面（Bottom）、左面（Left）、右面（Right）
-        char[] colors = {'R', 'B', 'G', 'O', 'W', 'Y'}; // 分别表示红、蓝、绿、橙、白和黄颜色
+    public void initializeFace() {
+        char[] colors = {'R', 'B', 'G', 'O', 'W', 'Y'};
         int colorIndex = 0;
 
         for (int x = 0; x < 3; x++) {
             for (int y = 0; y < 3; y++) {
-                state[x][y] = colors[colorIndex];
+                state[x][y] = colors[colorIndex% colors.length];
+                colorIndex++;
             }
         }
     }
