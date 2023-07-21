@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="fxml.CubeView"
+            prefHeight="400.0" prefWidth="600.0">
+
+</AnchorPane>
+
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <?import javafx.scene.layout.GridPane?>
+        <?import javafx.scene.paint.Color?>
+        <?import javafx.scene.shape.Rectangle?>
+
+<GridPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.CubeController">
+<!-- 定义6个面的图形表示 -->
+<!-- 前面（正面） -->
+<GridPane fx:id="frontPane" GridPane.rowIndex="1" GridPane.columnIndex="1">
+    <!-- 第一行 -->
+    <Rectangle fx:id="front00" width="50" height="50" fill="WHITE" stroke="BLACK" />
+    <Rectangle fx:id="front01" width="50" height="50" fill="WHITE" stroke="BLACK" />
+    <Rectangle fx:id="front02" width="50" height="50" fill="WHITE" stroke="BLACK" />
+
+    <!-- 第二行 -->
+    <Rectangle fx:id="front10" width="50" height="50" fill="WHITE" stroke="BLACK" />
+    <Rectangle fx:id="front11" width="50" height="50" fill="WHITE" stroke="BLACK" />
+    <Rectangle fx:id="front12" width="50" height="50" fill="WHITE" stroke="BLACK" />
+
+    <!-- 第三行 -->
+    <Rectangle fx:id="front20" width="50" height="50" fill="WHITE" stroke="BLACK" />
+    <Rectangle fx:id="front21" width="50" height="50" fill="WHITE" stroke="BLACK" />
+    <Rectangle fx:id="front22" width="50" height="50" fill="WHITE" stroke="BLACK" />
+</GridPane>
+
+<!-- 其他面的定义类似，这里省略 -->
+
+</GridPane>
+
